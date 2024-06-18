@@ -1,0 +1,48 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.nav-items {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3498db; /* Change to your preferred hover color */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Button styles */
+.btn1 {
+    background-color: rgb(123, 150, 212);
+    color: white;
+    margin-left: auto; /* Push button to the right */
+}
+
+.btn1:hover {
+    background-color: #fff;
+    color: #000;
+}
